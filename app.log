@@ -1,0 +1,88 @@
+2026-02-04 21:14:02,619 - ERROR - Error in main flow: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2026-02-04 21:14:12,244 - ERROR - Error in main flow: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2026-02-04 21:14:18,754 - ERROR - Error in main flow: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2026-02-04 21:22:51,618 - ERROR - Error in main flow: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2026-02-04 21:22:59,022 - ERROR - Error in main flow: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2026-02-04 21:24:05,818 - ERROR - Error in main flow: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2026-02-04 21:24:08,463 - ERROR - Error in main flow: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2026-02-04 21:24:10,977 - ERROR - Error in main flow: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2026-02-04 21:30:51,733 - ERROR - Error in main flow: Client.__init__() got an unexpected keyword argument 'proxies'
+2026-02-04 21:30:57,645 - ERROR - Error in main flow: Client.__init__() got an unexpected keyword argument 'proxies'
+2026-02-04 21:31:15,446 - ERROR - Error in main flow: Client.__init__() got an unexpected keyword argument 'proxies'
+2026-02-04 21:31:31,121 - ERROR - Error in main flow: Client.__init__() got an unexpected keyword argument 'proxies'
+2026-02-04 21:31:40,192 - ERROR - Error in main flow: Client.__init__() got an unexpected keyword argument 'proxies'
+2026-02-04 21:33:59,921 - ERROR - Error in main flow: Client.__init__() got an unexpected keyword argument 'proxies'
+2026-02-04 21:34:03,256 - ERROR - Error in main flow: Client.__init__() got an unexpected keyword argument 'proxies'
+2026-02-04 21:36:17,730 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-02-04 21:36:17,732 - ERROR - LLM call error: Error code: 400 - {'code': 'Client specified an invalid argument', 'error': 'Incorrect API key provided: NE***AI. You can obtain an API key from https://console.x.ai.'}
+2026-02-04 21:36:22,050 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-02-04 21:36:22,051 - ERROR - LLM call error: Error code: 400 - {'code': 'Client specified an invalid argument', 'error': 'Incorrect API key provided: NE***AI. You can obtain an API key from https://console.x.ai.'}
+2026-02-04 21:36:26,632 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-02-04 21:36:26,635 - ERROR - LLM call error: Error code: 400 - {'code': 'Client specified an invalid argument', 'error': 'Incorrect API key provided: NE***AI. You can obtain an API key from https://console.x.ai.'}
+2026-02-04 21:36:26,636 - WARNING - Planner fallback due to: RetryError[<Future at 0x128b06e50 state=finished raised BadRequestError>]
+2026-02-04 21:36:27,709 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-02-04 21:36:27,710 - ERROR - LLM call error: Error code: 400 - {'code': 'Client specified an invalid argument', 'error': 'Incorrect API key provided: NE***AI. You can obtain an API key from https://console.x.ai.'}
+2026-02-04 21:36:31,993 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-02-04 21:36:31,995 - ERROR - LLM call error: Error code: 400 - {'code': 'Client specified an invalid argument', 'error': 'Incorrect API key provided: NE***AI. You can obtain an API key from https://console.x.ai.'}
+2026-02-04 21:36:36,294 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-02-04 21:36:36,295 - ERROR - LLM call error: Error code: 400 - {'code': 'Client specified an invalid argument', 'error': 'Incorrect API key provided: NE***AI. You can obtain an API key from https://console.x.ai.'}
+2026-02-04 21:36:36,298 - ERROR - Error in main flow: RetryError[<Future at 0x128b4aa50 state=finished raised BadRequestError>]
+2026-02-04 21:43:27,281 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-02-04 21:43:31,527 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-02-04 21:43:35,803 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-02-04 21:43:35,804 - WARNING - Planner fallback due to: RetryError[<Future at 0x124508710 state=finished raised BadRequestError>]
+2026-02-04 21:43:37,178 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-02-04 21:43:41,720 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-02-04 21:43:45,974 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-02-04 21:43:45,987 - ERROR - Error in main flow: RetryError[<Future at 0x1245f0f50 state=finished raised BadRequestError>]
+2026-02-04 21:45:29,012 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-02-04 21:45:33,467 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-02-04 21:45:37,719 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-02-04 21:45:37,721 - WARNING - Planner fallback due to: RetryError[<Future at 0x122b97650 state=finished raised BadRequestError>]
+2026-02-04 21:45:38,006 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-02-04 21:45:42,309 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-02-04 21:45:46,575 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-02-04 21:45:46,578 - ERROR - Error in main flow: RetryError[<Future at 0x122bcf890 state=finished raised BadRequestError>]
+2026-02-04 21:50:18,211 - ERROR - Error in main flow: '\n  "steps"'
+2026-02-04 21:52:17,558 - ERROR - Error in main flow: '\n  "steps"'
+2026-02-04 22:11:38,590 - ERROR - Error in main flow: '\n  "final_answer"'
+2026-02-04 22:12:59,997 - ERROR - Error in main flow: '\n  "final_answer"'
+2026-02-04 22:13:36,568 - ERROR - Error in main flow: '\n  "final_answer"'
+2026-02-04 22:15:33,261 - ERROR - Error in main flow: '\n  "final_answer"'
+2026-02-04 22:17:31,144 - ERROR - Main flow crashed
+Traceback (most recent call last):
+  File "/Users/rohitmannur/Desktop/AI Operations Assistant/main.py", line 71, in <module>
+    final = verifier.verify(results, prompt)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohitmannur/Desktop/AI Operations Assistant/agents/verifier.py", line 39, in verify
+    prompt = VERIFIER_PROMPT.format(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: '\n  "final_answer"'
+2026-02-04 22:42:13,512 - ERROR - Error in main flow: '\n  "steps"'
+INFO:httpx:HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+ERROR:root:Error in main flow: Error code: 400 - {'code': 'Client specified an invalid argument', 'error': 'Incorrect API key provided: NE***AI. You can obtain an API key from https://console.x.ai.'}
+INFO:httpx:HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+ERROR:root:Error in main flow: Error code: 400 - {'code': 'Client specified an invalid argument', 'error': 'Incorrect API key provided: NE***AI. You can obtain an API key from https://console.x.ai.'}
+INFO:httpx:HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+ERROR:root:Error in main flow: Error code: 400 - {'code': 'Client specified an invalid argument', 'error': 'Incorrect API key provided: NE***AI. You can obtain an API key from https://console.x.ai.'}
+INFO:httpx:HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+ERROR:root:Error in main flow: Error code: 400 - {'code': 'Client specified an invalid argument', 'error': 'Incorrect API key provided: NE***AI. You can obtain an API key from https://console.x.ai.'}
+INFO:httpx:HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+ERROR:root:Error in main flow: Error code: 400 - {'code': 'Client specified an invalid argument', 'error': 'Incorrect API key provided: NE***AI. You can obtain an API key from https://console.x.ai.'}
+INFO:httpx:HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+ERROR:root:Error in main flow: Error code: 400 - {'code': 'Client specified an invalid argument', 'error': 'Incorrect API key provided: NE***AI. You can obtain an API key from https://console.x.ai.'}
+INFO:httpx:HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+ERROR:root:Error in main flow: Error code: 400 - {'code': 'Client specified an invalid argument', 'error': 'Incorrect API key provided: NE***AI. You can obtain an API key from https://console.x.ai.'}
+INFO:httpx:HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+ERROR:root:Error in main flow: Error code: 400 - {'code': 'Client specified an invalid argument', 'error': 'Incorrect API key provided: NE***AI. You can obtain an API key from https://console.x.ai.'}
+INFO:httpx:HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+ERROR:root:Error in main flow: Error code: 400 - {'code': 'Client specified an invalid argument', 'error': 'Incorrect API key provided: NE***AI. You can obtain an API key from https://console.x.ai.'}
+INFO:httpx:HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+ERROR:root:Error in main flow: Error code: 400 - {'code': 'Client specified an invalid argument', 'error': 'Incorrect API key provided: NE***AI. You can obtain an API key from https://console.x.ai.'}
+INFO:httpx:HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+ERROR:root:Error in main flow: Error code: 400 - {'code': 'Client specified an invalid argument', 'error': 'Incorrect API key provided: NE***AI. You can obtain an API key from https://console.x.ai.'}
+INFO:httpx:HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 403 Forbidden"
+ERROR:root:Error in main flow: Error code: 403 - {'code': 'The caller does not have permission to execute the specified operation', 'error': "Your newly created team doesn't have any credits or licenses yet. You can purchase those on https://console.x.ai/team/897b5251-3567-4120-b8a6-c768205e8014."}
+2026-02-05 06:36:27,387 - ERROR - Error in main flow: 'dict' object has no attribute 'model_dump_json'
+2026-02-05 06:37:27,151 - ERROR - Error in main flow: 'dict' object has no attribute 'steps'
+2026-02-05 06:37:34,548 - ERROR - Error in main flow: 'dict' object has no attribute 'steps'
